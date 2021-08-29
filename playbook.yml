@@ -1,0 +1,7 @@
+-
+    name: server, application, LB
+    hosts: group1
+    roles:
+       - {role: cloud_server}
+       - {role: apache}
+       - {role: mysql}
